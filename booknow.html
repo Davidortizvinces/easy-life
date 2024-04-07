@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/favicon/css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="stylesheet" href="gallery.html">
+    <title>Easy Life</title>
+</head>
+
+<body>
+    <section class="showcase ">
+        <header>
+            <h2 class="logo">Easy Life</h2>
+            <div class="toggle "></div>
+        </header>
+
+        <video src="Yoga.mp4" muted loop autoplay></video>
+
+        <div class="overplay"></div>
+
+        <div class="text">
+            <h2>Find Peace</h2>
+            <h3>Experience connection in mind, body, and spirit at Yoga</h3>
+            <a href="#">Explore</a>
+        </div>
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="booknow.html">Book now</a></li>
+
+        </ul>
+
+        <script>
+            const menuToggle = document.querySelector('.toggle');
+            const showcase = document.querySelector('.showcase');
+
+            menuToggle.addEventListener('click', () => {
+                menuToggle.classList.toggle('active');
+                showcase.classList.toggle('active');
+            })</script>
+</body>
+
+</html>

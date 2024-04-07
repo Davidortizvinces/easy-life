@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/favicon/css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="stylesheet" href="gallery.html">
+    <title>Easy Life</title>
+</head>
+
+<body>
+    <section class="showcase ">
+        <header>
+            <h2 class="logo">Easy Life</h2>
+            <div class="toggle "></div>
+        </header>
+
+        <video src="exercise.mp4" muted loop autoplay></video>
+
+        <div class="overplay"></div>
+
+        <div class="text">
+            <h2>Find Peace</h2>
+            <h3>Experience connection in mind, body, and spirit at Yoga</h3>
+            
+        </div>
+    </section>
+<!--Main content-->
+<main>
+    <section id="gallery">
+        <div class="photos">
+            <img src="assets\favicon\images\pexels-editor-belal-3150250.jpg" alt="ant form">
+            <img src="assets\favicon\images\pexels-hatice-baran-14252564.jpg" alt="">
+            <img src="assets\favicon\images\pexels-nick-wehrli-5345858.jpg" alt="">
+            <img src="assets\favicon\images\pexels-pnw-production-8980974.jpg" alt="">
+            <img src="assets\favicon\images\pexels-shu-lei-13849063.jpg" alt="">
+            <img src="assets\favicon\images\pexels-valeria-ushakova-3094230.jpg" alt="">
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer>
+
+    <script src="https://kit.fontawesome.com/331407c53b.js" crossorigin="anonymous"></script>
+    <ul id="social-networks">
+
+        <li>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+        </li>
+
+        <li>
+            <a href="https://twitter.com/i/flow/login" target="_blank" rel="noopener"
+                aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-x-twitter"></i></a>
+        </li>
+
+        <li>
+            <a href="https://www.Youtube.com/" target="_blank" rel="noopener"
+                aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+        </li>
+
+        <li>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                aria-label="Visit our Instagram page (opens in a new tab)"><i
+                    class="fa-brands fa-instagram"></i></a>
+        </li>
+
+
+    </ul>
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="booknow.html">Book now</a></li>
+
+        </ul>
+
+        <script>
+            const menuToggle = document.querySelector('.toggle');
+            const showcase = document.querySelector('.showcase');
+
+            menuToggle.addEventListener('click', () => {
+                menuToggle.classList.toggle('active');
+                showcase.classList.toggle('active');
+            })</script>
+</body>
+
+</html>
